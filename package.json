@@ -1,22 +1,17 @@
 {
-  "name": "timestamp",
+  "name": "url-shortener",
   "version": "1.0.0",
-  "description": "a timestamp API",
+  "description": "shortens urls",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JakeCasey/fcc-timestamp.git"
+    "type": "git"
   },
   "author": "Jake Casey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JakeCasey/fcc-timestamp/issues"
-  },
-  "homepage": "https://github.com/JakeCasey/fcc-timestamp#readme",
   "dependencies": {
     "ejs": "^1.0.0",
     "express": "^4.14.0",
